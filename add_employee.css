@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9); /* Add transparency to the container to allow background image to show */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Success/Error Messages */
+.text-danger {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.text-success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Form Input Fields */
+.form-control {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

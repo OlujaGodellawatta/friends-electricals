@@ -1,0 +1,112 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Specific Button Colors */
+.btn-success {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'Add Product' */
+}
+
+.btn-info {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'Add Supplier' */
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'View Employees' */
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'View Products' */
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'View Suppliers' */
+}
+
+.btn-dark {
+    background: linear-gradient(135deg, #6c757d, #495057); /* Gray for 'Add Supplier' */
+}
+
+/* Keep the Logout Button Color Unchanged */
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333); /* Red for Logout */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}

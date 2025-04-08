@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+/* Action Buttons */
+.btn {
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning {
+    background-color: #ff9800;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Stack the table elements vertically on smaller screens */
+    .table th, .table td {
+        display: block;
+        width: 100%;
+    }
+    
+    .table th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .table td {
+        background-color: #fff;
+        border-top: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* Success and Error Message */
+.text-success, .text-danger {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}

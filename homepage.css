@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
